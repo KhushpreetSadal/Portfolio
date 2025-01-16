@@ -1,0 +1,48 @@
+<div id="contact" class="contact">
+    <h1 class="text-center ">Contact</h1>
+
+    <div class="container">
+
+        <div class="info">
+            <p>I look forward to connecting with you! Whether it’s for a project, feedback, or just to say hello, I’m
+                excited to hear from you. Thank you for visiting my portfolio.</p>
+            <ul>
+                <li><a href="https://mail.google.com/mail/?view=cm&fs=1&to=khushpreetsingh2047@gmail.com"
+                        target="_blank">khushpreetsingh2047&#64;gmail.com</a></li>
+                        <li>Linkedin : <a href="https://www.linkedin.com/in/khushpreet-singh-1794b22a7/" target="_blank">Profile Link</a>
+                    </li>
+                   
+                <li id="li">Mob-No : 9782322047 <button class="gBtn" (click)="copy()">Copy</button>  <p *ngIf="copied" id="copy">Copied!</p></li>
+                <li>Github : <a href="https://github.com/KhushpreetSadal"
+                    target="_blank">Github Profile</a></li>
+            </ul>
+            <p class="mt-5">I hope we can collaborate soon! Wating for your Message.</p>
+
+        </div>
+
+        <div class="form">
+            <p id="err" *ngIf="errors" class="text-danger">Please Enter Valid {{meassage}}</p>
+            <p id="err" *ngIf="sucess" class="text-success">Form Submited</p>
+            <p id="err" *ngIf="wait">Please Wait!</p>
+            
+            
+            <form class="mb-3" #form="ngForm" (submit)="send(form.value,form)">
+
+                <input type="text" class="form-control mb-2" ngModel="" name="name" id="exampleFormControlInput"
+                    placeholder="Name" required>
+
+                <input type="email" class="form-control mb-2" ngModel="" name="email" id="exampleFormControlInput1"
+                    placeholder="name@example.com" required>
+
+                <textarea class="form-control mb-2" ngModel="" name="message" placeholder="Your Message"
+                    id="exampleFormControlTextarea1" rows="3" required></textarea>
+
+                <button class="gBtn mt-3">Submit</button>
+            </form>
+        </div>
+
+    </div>
+
+
+
+</div>

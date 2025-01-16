@@ -1,0 +1,55 @@
+.home{
+    padding: 5rem 5.5rem;
+    justify-content: center;
+}
+.home .text{
+    padding-top: 1rem;
+    width: 50%;
+}
+.home .text h1{
+    font-size: 4rem;
+}
+.home .image{
+    width: 50%;
+    justify-content: end;
+}
+.home .image img{
+    width: 75%;
+}
+
+@media screen and (max-width:950px) {
+
+    .home .image img{
+    width: 95%;
+}
+}
+
+@media screen and (max-width:770px) {
+    .home{
+        flex-direction: column;
+    
+    }
+    .home .text{
+        width: 100%;
+    }
+    .home .image{
+        width: 70%;
+        justify-content: center;
+        margin: auto;
+        margin-top: 2rem;
+
+    }
+}
+
+@media screen and (max-width:470px) {
+    .home{
+        padding: 1rem;
+    }
+    .home .image{
+        width: 80%;
+        justify-content: center;
+        margin: auto;
+        margin-top: 2rem;
+
+    }
+}

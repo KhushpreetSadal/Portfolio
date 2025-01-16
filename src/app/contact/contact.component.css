@@ -1,0 +1,84 @@
+.contact {
+    padding: 4rem;
+    padding-bottom: 2rem;
+
+}
+
+.contact h1 {
+    margin-bottom: 3rem;
+
+}
+
+.contact .container {
+    display: flex;
+    justify-content: space-between;
+}
+.form-control{
+    border: 2px solid grey;
+}
+
+.contact .info {
+    width: 48%;
+    padding-top: 2rem;
+
+}
+
+.contact .info p {
+    margin-bottom: 2rem;
+}
+
+.contact .info ul {
+    list-style: none;
+}
+
+.contact .info ul li {
+    margin: 1.15rem;
+    font-size: 1.3rem;
+}
+
+.contact .info ul li a {
+    color: #2f5fff;
+}
+
+.contact .form  {
+    position: relative;
+    padding-top: 2rem;
+    width: 48%;
+}
+
+.contact #err {
+    position: absolute;
+    top: 0%;
+    left: 0;
+}
+#li{
+    position: relative;
+}
+#copy{
+    position: absolute;
+    top: -20%;
+    left: 0%;
+    margin: 0px;
+}
+
+@media screen and (max-width:1000px) {
+
+    .container {
+        flex-direction: column;
+    }
+    .contact .form{
+        width: 100%;
+    }
+    .contact .info {
+        width: 100%;
+    }
+}
+@media screen and (max-width:510px){
+    .contact .info ul {
+        padding: 0%;
+    }
+    .contact {
+        padding: 2%;
+    }
+
+}
