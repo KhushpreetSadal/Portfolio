@@ -12,6 +12,7 @@
 }
 .project .image .video{
     width: 90%;
+    border-radius: .25rem;
 }
 .project .desc{
     width: 50%;

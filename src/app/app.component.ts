@@ -58,11 +58,19 @@ gsap.from('.project img', {
   x:-80,opacity: 0,duration: 1.5, stagger: .5,
   scrollTrigger: {
       trigger: '.project img',
-  
       scroller: 'body',
       start: 'top 65%',
   }
 })
+gsap.from('.project video', {
+  x:-80,opacity: 0,duration: 1.5, stagger: .5,
+  scrollTrigger: {
+      trigger: '.project video',
+      scroller: 'body',
+      start: 'top 65%',
+  }
+})
+
 
 //contact
 
