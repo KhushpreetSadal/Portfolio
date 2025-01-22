@@ -5,7 +5,13 @@ export const routes: Routes = [
     {
         path:"",
         component:AppComponent,
-    },{
+    },
+    {
+        path:"?i=1",
+         redirectTo:"",
+         pathMatch:"full"
+    },
+    {
         path:"**",
         redirectTo:""
     }
