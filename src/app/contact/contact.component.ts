@@ -22,7 +22,6 @@ export class ContactComponent {
   errors = false;
   sucess = false;
   wait = false;
-  copied = false;
 
   solve() {
     setTimeout(() => {
@@ -43,8 +42,7 @@ export class ContactComponent {
         name: data.name,
         email: data.email,
         message: data.message,
-      }).then(
-        () => {
+      }).then(() => {
           this.wait = false
           this.sucess = true
           this.resetForm(form)
@@ -81,15 +79,6 @@ export class ContactComponent {
     }
 
   }
-  copy() {
-    navigator.clipboard.writeText("9782322047");
-    this.copied = true;
-    setTimeout(() => {
-      this.copied = false;
-    }, 1200)
-  }
-
-
 
 
 }

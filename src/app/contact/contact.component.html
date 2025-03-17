@@ -37,8 +37,9 @@
 
                 <textarea class="form-control mb-2" ngModel="" name="message" placeholder="Your Message"
                     id="exampleFormControlTextarea1" rows="3" required></textarea>
-
-                <button class="gBtn mt-3">Submit</button>
+                
+                <button class="gBtn"><span class="text-white" *ngIf="!wait">Submit</span><span *ngIf="wait"><img [src]="'./images/load1.gif'"></span></button>
+                
             </form>
         </div>
 

@@ -51,6 +51,7 @@
     position: absolute;
     top: 0%;
     left: 0;
+    transition: all ease-in .35s;
 }
 #li{
     position: relative;
@@ -60,6 +61,15 @@
     top: -20%;
     left: 0%;
     margin: 0px;
+}
+.contact .form button{
+    transform: none !important;
+}
+.contact .form button:hover{
+    transform: scale(1.03) !important; 
+}
+.form button img{
+    width: 1.5rem;
 }
 
 @media screen and (max-width:1000px) {
