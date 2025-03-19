@@ -41,7 +41,7 @@ gsap.from('.about .text p,.about .text button', {
 })
 
 gsap.from('.about li', {
-  x: 80,opacity: 0,duration: 1, stagger: .3,
+  x: 30,opacity: 0,duration: 1, stagger: .3,
   scrollTrigger: {
       trigger: '.about .text',
       scroller: 'body',
