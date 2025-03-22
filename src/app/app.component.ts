@@ -72,7 +72,7 @@ gsap.from('.project video', {
 
 //contact
 
-gsap.from('.contact .form .form-control,.contact .form button,.contact .info p, .contact .info li', {
+gsap.from('.contact .form .form-control,.contact .form button,.contact .form p,.contact .info p, .contact .info li', {
   y:80,opacity: 0,duration: .5, stagger: .2,
   scrollTrigger: {
       trigger: '.contact h1',
