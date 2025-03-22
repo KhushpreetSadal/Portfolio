@@ -84,7 +84,6 @@
     border-radius: 0%;
     padding: 0%;
     color: grey;
-    font-weight:100 !important;
     background-color: white;
 
 }
@@ -95,7 +94,7 @@ input:focus, textarea:focus {
 
 .form .form-control::placeholder {
     color: rgb(137, 137, 139);
-    font-weight: 100;
+   
 }
 input:-webkit-autofill,
 input:-webkit-autofill:hover, 
