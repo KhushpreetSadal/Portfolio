@@ -26,8 +26,8 @@ export class AppComponent{
   gsap.from(".image",{x: 100, duration: 2,opacity: 0})
   var tl = gsap.timeline();
   tl.from(".home .text h1", {x: -100, duration: 1,opacity: 0});
-  tl.from(".home .text p", {y: 50, duration: 1,opacity: 0});
-  tl.from(".home .text a", { opacity: 0, duration: 1, ease: "power2.out" });
+  // tl.from(".home .text .content", {y: 50, duration: 1,opacity: 0});
+  tl.from(".home .text .content", { opacity: 0, duration: 1, ease: "power2.out" });
 
    //about
 gsap.from('.about .text p,.about .text button', {
