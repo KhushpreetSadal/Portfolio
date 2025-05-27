@@ -51,6 +51,21 @@ gsap.from('.about li', {
 
 })
 
+//experiance
+
+gsap.from('#experience .experience-card', {
+  opacity: 0,duration: 3, stagger: .2,
+  scrollTrigger: {
+      trigger: '#experience .experience-card',
+      scroller: 'body',
+      start: 'top 65%',
+      markers: true
+  },
+
+})
+
+
+
 //project
 
 gsap.from('.project img', {
