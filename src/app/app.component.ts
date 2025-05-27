@@ -59,7 +59,6 @@ gsap.from('#experience .experience-card', {
       trigger: '#experience .experience-card',
       scroller: 'body',
       start: 'top 65%',
-      markers: true
   },
 
 })
