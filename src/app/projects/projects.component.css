@@ -1,6 +1,6 @@
 .project{
     display: flex;
-    padding: 5rem;
+    padding: 5rem 0rem;
 }
 .project .image{
     width: 50%;
@@ -40,7 +40,7 @@
 }
 @media screen and (max-width:450px){
     .project{
-        padding: 8%;
+        /* padding: 8% ; */
     }
     .project .video{
         width: 100%;

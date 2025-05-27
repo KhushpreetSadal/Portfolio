@@ -1,15 +1,12 @@
 .contact {
-    padding: 4rem;
-    padding-bottom: 2rem;
-
+    padding: 4rem 0rem 2rem 0rem;
 }
 
 .contact h1 {
     margin-bottom: 3rem;
-
 }
 
-.contact .container {
+.contact .con {
     display: flex;
     justify-content: space-between;
 }
@@ -112,7 +109,7 @@ select:-webkit-autofill:focus {
 
 @media screen and (max-width:1000px) {
 
-    .container {
+    .con {
         flex-direction: column;
     }
     .contact .form{

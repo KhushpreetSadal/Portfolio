@@ -1,0 +1,24 @@
+.componetns {
+  width: 85%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+@media screen and (max-width: 500px) {
+  .componetns {
+    width: 90%;
+  }
+}
+
+@media screen and (min-width: 1750px) {
+  .componetns {
+    width: 70%;
+  }
+}
+
+@media screen and (min-width: 2150px) {
+  .componetns {
+    width: 60%;
+  }
+}

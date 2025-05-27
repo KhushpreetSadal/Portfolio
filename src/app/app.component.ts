@@ -7,13 +7,14 @@ import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { ContactComponent } from './contact/contact.component';
+import { ExperianceComponent } from './experiance/experiance.component';
 
 gsap.registerPlugin(ScrollTrigger);
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [HeaderComponent,HomeComponent,AboutComponent,ProjectsComponent,ContactComponent,FooterComponent],
+  imports: [HeaderComponent,HomeComponent,AboutComponent,ExperianceComponent,ProjectsComponent,ContactComponent,FooterComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
@@ -22,8 +23,8 @@ export class AppComponent{
 
   ngAfterViewInit(): void {
     gsap.registerPlugin(ScrollTrigger);
-  gsap.from("#nav", {y: -100, duration: 2,opacity: 0})
-  gsap.from(".image",{x: 100, duration: 2,opacity: 0})
+  gsap.from("#nav", {y: -100, duration: 1.5,opacity: 0})
+  gsap.from(".image",{x: 100, duration: 1.5,opacity: 0})
   var tl = gsap.timeline();
   tl.from(".home .text h1", {x: -100, duration: 1,opacity: 0});
   // tl.from(".home .text .content", {y: 50, duration: 1,opacity: 0});
