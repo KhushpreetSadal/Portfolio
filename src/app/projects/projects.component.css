@@ -37,11 +37,11 @@
         margin-top: 2rem;
 
     }
+    .pt-5{
+        padding-top: 0% !important;
+    }
 }
 @media screen and (max-width:450px){
-    .project{
-        /* padding: 8% ; */
-    }
     .project .video{
         width: 100%;
     }

@@ -36,6 +36,7 @@
     }
     
     .experience-card {
+        margin-top: 1.5rem;
     background: #fff;
     padding: 2.5rem;
     border-radius:0 0.75rem 0.75rem 0 ;
