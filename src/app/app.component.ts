@@ -27,7 +27,6 @@ export class AppComponent{
   gsap.from(".image",{x: 100, duration: 1.5,opacity: 0})
   var tl = gsap.timeline();
   tl.from(".home .text h1", {x: -100, duration: 1,opacity: 0});
-  // tl.from(".home .text .content", {y: 50, duration: 1,opacity: 0});
   tl.from(".home .text .content", { opacity: 0, duration: 1, ease: "power2.out" });
 
    //about
